@@ -1,0 +1,5 @@
+a=int(input("enter a>>"))
+b=int(input("enter b>>"))
+print(a>10 and b>=10)
+print(a>10 or b<5)
+print(a!=b)
