@@ -1,0 +1,13 @@
+import numpy as np
+a=np.array([4,9,16,25])
+print(np.sqrt(a))
+print(np.max(a))
+print(np.min(a))
+print(np.sum(a))
+print(np.mean(a))
+print(np.argmax(a))
+print(np.argmin(a))
+print(a>10)
+print(a==9)
+print(np.sum(a>15))
+print(np.sum(a,axis=0))
